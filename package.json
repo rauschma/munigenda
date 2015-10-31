@@ -1,0 +1,15 @@
+{
+  "name": "munigenda",
+  "dependencies": {
+    "babel": "^6.0.14",
+    "babel-cli": "^6.0.14",
+    "csv-streamify": "^2.0.0",
+    "handlebars": "^4.0.4"
+  },
+  "bin": {
+    "muni": "./munigenda.js"
+  },
+  "scripts": {
+    "muni": "./munigenda.js"
+  }
+}

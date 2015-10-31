@@ -1,0 +1,22 @@
+Registration is mandatory: please register on <a href="http://www.meetup.com/MunichJS-User-Group/events/TODO/">Meetup.com</a>.
+<ul>
+	<li>19:00 Socializing, food, drinks</li>
+	<li>19:30 Welcome</li>
+	{{#each talks}}
+	<li>[{{duration}}] {{title}} ({{speaker}})</li>
+	{{/each}}
+</ul>
+
+Location and food sponsored by TODO.
+
+{{#each talks}}
+<h1>{{title}} ({{speaker}})</h1>
+
+{{description}}
+
+{{#if personalPage}}
+<strong><a href="{{personalPage}}">{{speaker}}</a>:</strong> {{bio}}
+{{else}}
+<strong>{{speaker}}:</strong> {{bio}}
+{{/if}}
+{{/each}}
