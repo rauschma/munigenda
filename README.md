@@ -1,10 +1,10 @@
 Installation:
 
 * Download the repo
-* cd munigenda/
-* npm install
+* `cd munigenda/`
+* `npm install`
 
 Usage:
 
 * Copy talk rows (including header row!) from Google Spreadsheet.
-* `pbpaste | ./munigenda.js templates/meetup_com.handlebars`
+* `pbpaste | npm run muni templates/meetup_com.handlebars`
